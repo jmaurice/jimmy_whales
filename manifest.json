@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "js": [ "sitenoticediv.js", "contentscript.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "Adds a nice Wikipedia donation banner to every single web page.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCcKDbJT8jZs0XXsGiMfU0Pw/NYOtrUk1W8ig6Ri2GZ+bkL59kTBJNJL/Jufz4AGQ1gyoixFYGyUXzezfOBG88zDenunNEVtgketbxkVyGeR6QQl/G5UUaMolQyN8jiuHZJ9upID7TSRF3B6DgmlnylDH4tcmaClV8nZlGhU7LOHQIDAQAB",
+   "name": "Jimmy Wales",
+   "permissions": [  ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.6",
+   "manifest_version": 2
+}
